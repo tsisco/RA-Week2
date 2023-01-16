@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <form action="server.php">
+        <fieldset>
+          <legend>Contact Page</legend>
+          Name:<br>
+          <input type="text" name="firstlastname" value=""><br>
+          Email:<br>
+          <input type="text" name="emailaddress" value=""><br>
+          Message:<br>
+          <textarea name="message" rows="5" cols="21"></textarea><br>
+          <label for="priorityOptions">Priority:</label>
+          <select name="options" id="priorityOptions">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select><br><br>
+          <input type="submit" value="Submit">      
+        </fieldset>
+    </form>
+</body>
+</html>
